@@ -1,0 +1,32 @@
+- laravel 6 vue 에서 jquery 사용하는 법
+  https://www.youtube.com/watch?v=CMjRLsTtdxs
+- laravel 6 에서 jquery 사용방법(확인해야함 23/02/2020)
+  https://stackoverflow.com/questions/58574239/laravel-jquery-not-working-while-right-path
+  https://stackoverflow.com/questions/50342580/how-to-use-integrate-jquery-in-laravel
+  https://medium.com/@nedsoft/how-to-add-jquery-ui-plugin-to-a-laravel-app-using-laravel-mix-e85bf0244fc1
+- 아래는 laravel6x 와는 관련 없지만 혹시 추후에 필요할지 몰라 기록했음.
+   (https://www.codechief.org/article/simple-like-system-in-laravel-6-using-vue-js)
+- composer create-project --prefer-dist laravel/laravel laravel6x
+- composer require laravel/ui --dev ( --dev 는 왜쓰는지 모름. 않써도 됨)
+- php artisan ui vue --auth
+- php artisan make:model Post -fm (f => database/factoies/PostFactory.php, m => migration)
+- php artisan migrate
+- register 시에 verify email을 notification을 사용하여 보낸다.
+- queue => beanstalkd
+- cache => redis
+-  progressBar
+- Full calendar [ https://www.youtube.com/watch?v=x_WMkIKztRQ ]
+- vue pagination
+- booking email using job and queue (php artisan queue:work --tries=1)
+- spatie-ACL
+- debugBar installed
+- confirm password middleware 사용
+   https://laravel-news.com/new-password-confirmation-in-laravel-6-2
+- myJs,myCss는 vue에서 사용하지말고 view를 call 하는 xxxx.blade.php에 삽입하여야 한다.
+- layouts/app.blade.php에서 script 삽입은 head에 하지 말고 한단 body 끝나기 전에 할 것.
+- passport installed (https://www.youtube.com/watch?v=HGh0cKEVXPI)
+- https://www.youtube.com/watch?v=OJtGeqgXwfo => 참고영상
+- guzzle installed (http://docs.guzzlephp.org/en/stable/overview.html)
+    composer require guzzlehttp/guzzle
+- 결론 ==> passport authentication은 vue를 이용한 SPA에서만 가능
+
